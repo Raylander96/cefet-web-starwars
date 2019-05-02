@@ -3,15 +3,7 @@
 // para fazer uma requisição assíncrona e:
 //  - Pegar a lista de filmes (AJAX) e preencher no HTML
 //  - Quando um filme for clicado, exibir sua introdução
-/*
-$.ajax({
-    url: 'https://swapi-simple.herokuapp.com/films',
-    method: 'GET',      // opcional: 'GET' é o valor padrão
-    success: function (resposta) {
-        console.log(resposta);
-    }
-});
-*/
+
 let audio = new Audio('starWarsTheme.mp3');
 audio.play();
 
